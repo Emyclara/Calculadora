@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloCalculadora.css">
+    <script src="jsCalculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+   
+    <div class="fundo">
+    <h2>Calculadora Simples</h2>
+
+    
+    <p><input type="text" id="numero1"></p>
+    <p><input type="text" id="numero2"></p>
+
+    <input type="radio" id="radio1" name="radios"><b>+</b>
+    <input type="radio" id="radio2" name="radios"><b>-</b>
+    <input type="radio" id="radio3" name="radios"><b>*</b>
+    <input type="radio" id="radio4" name="radios"><b>/</b>
+
+    <p>
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button"onclick="limpar()">Limpar</button>
+    </p>
+
+    <h1 id="resultado"></h1>
+
+
+
+</div>
+</body>
+</html>
